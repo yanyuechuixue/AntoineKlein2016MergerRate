@@ -221,9 +221,9 @@ def EventsUniverse(cosmos=cosmos, duration=None, sourceType='MBHB', model=None):
     '''
     # the duration needs to be rescaled, be cause the numbers in the catalogues seems 5 times larger than needed
     duration=duration/5.
-    if duration<=0.1:
+    if duration<0.1:
         raise ValueError('duration too short (>=0.1 years)!')
-    elif duration>=10:
+    elif duration>10:
         raise ValueError('duration too long (<=10 years)!')
     if sourceType=='MBHB':
         path_sourcetype='/Users/zzc/temp/gwtoolbox/gwtoolbox/catalogues_mHz/MBHs/'
