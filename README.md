@@ -1,5 +1,5 @@
 # AntoineKlein2016MergerRate
-This file implements the mergerRate form 10.1103/PhysRevD.93.024003
+This file implements the mergerRate from 10.1103/PhysRevD.93.024003
 
 Codes from gwtoolbox(https://bitbucket.org/radboudradiolab/gwtoolbox)
 
