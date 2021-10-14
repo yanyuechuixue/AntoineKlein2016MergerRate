@@ -165,8 +165,8 @@ return a p object, with 20 parameters in it.
     Cat['Redshift']=zs                 # 4
     #mass1=(1.0+zs)*data_cube[:,1] # read in intrinsic masses, convert to red-shifted: may be need not # yishuxu: 28 Apr
     #mass2=(1.0+zs)*data_cube[:,2]
-    mass1=data_cube[:,1]*(1.0+zs)
-    mass2=data_cube[:,2]*(1.0+zs)
+    mass1=data_cube[:,1]
+    mass2=data_cube[:,2]
     #indices= np.array(mass1)>1e4 and np.array(mass2)>1e4
     #Cat['Mass1']=mass1[(mass1>masscut)*(mass2>masscut)]                 # 5
     Cat['Mass1']=mass1
